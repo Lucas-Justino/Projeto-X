@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Sequel Sans Heavy Disp';
+  src: url('../src/fonts/sequel-sans-heavy-disp.ttf') format('truetype');
+}
+
+
+:root{
+  background-color: #000000;
+}
