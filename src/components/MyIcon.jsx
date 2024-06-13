@@ -1,13 +1,13 @@
 import React from "react";
 
-const MyIcon = () => {
+const MyIcon = ({width, height}) => {
   return (
-    <div className="h-full w-full">
+    <div className="">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 50 50"
-        width="500px"
-        height="500px"
+        width={width}
+        height={height}
         fill="#E7E9EA"
       >
         <path 
