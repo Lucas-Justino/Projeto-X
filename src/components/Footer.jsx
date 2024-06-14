@@ -2,7 +2,7 @@ import { IoCloseOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="flex mt-4 text-[15px] text-[#E7E9EA]">
+    <div className="flex xl:mt-4 3xl:mt-4 text-[15px] text-[#E7E9EA]">
       <div className="flex-1"></div>
       <div className="flex flex-1 gap-10 whitespace-nowrap pt-1">
         <div>

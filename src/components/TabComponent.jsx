@@ -25,7 +25,7 @@ const TabComponent = () => {
 
   return (
     <div>
-      <div className="bg-black h-[6vh] flex justify-around items-center cursor-pointer border-b border-[#2F3336]">
+      <div className="bg-black lg:mt-12 xl:mt-0 3xl:mt-0 h-[6vh] flex justify-around items-center cursor-pointer border-b border-[#2F3336]">
         {['Posts', 'Respostas', 'Assinaturas', 'Destaques', 'Mídia'].map((tab, index) => (
           <div
             key={tab}

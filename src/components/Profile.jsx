@@ -10,7 +10,7 @@ import TabComponent from "./TabComponent";
 
 const Profile = () => {
   return (
-    <div className="xl:w-[58%] 3xl:w-2/4 flex flex-col border border-[#2F3336]">
+    <div className="lg:h-[780px] xl:h-[950px] 3xl:h-[950px] xl:w-[58%] 3xl:w-2/4 flex flex-col border border-[#2F3336]">
       <div className="bg-black h-[6vh] flex items-center">
         <div className="flex ml-2 gap-6 items-center">
           <button className="h-8 w-8 rounded-full flex justify-center items-center hover:bg-[#181919]">
@@ -32,11 +32,11 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div className="bg-black h-[25vh] relative">
-        <img src={Capa} alt=""/>
+      <div className="bg-black lg:h-[15vh] xl:h-[25vh] 3xl:h-[25vh] relative">
+        <img src={Capa} alt="" className="lg:object-cover lg:w-full lg:h-full xl:w-full xl:h-48"/>
         <div className="flex justify-between">
           <div>
-            <div className="absolute top-32 left-5 h-36 w-36 z-10">
+            <div className="absolute lg:top-4 xl:top-32 3xl:top-32 left-5 h-36 w-36 z-10">
               <img src={ElonMusk} alt="" className="rounded-full border-4 border-black" />
             </div>
           </div>
@@ -53,9 +53,9 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div className="bg-black h-[20vh] mt-8">
+      <div className="bg-black lg:h-[20vh] mt-8">
         <div className="flex flex-col m-3">
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 lg:pt-4 xl:pt-0 3xl:pt-0">
             <span className="text-[#E7E9EA] font-bold text-xl leading-tight">
               Elon Musk
             </span>

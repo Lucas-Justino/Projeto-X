@@ -5,8 +5,8 @@ import MyIcon from "../components/MyIcon";
 const Home = () => {
     return(
         <div className="h-screen flex flex-col">
-            <div className="flex h-[90vh] border-b-[0.5px] border-gray-700">
-                <div className="w-2/4 flex justify-center items-center pl-[17.5%] pt-[10.5%]">
+            <div className="flex lg:h-[85vh] xl:h-[90vh] 3xl:h-[90vh] border-b-[0.5px] border-gray-700">
+                <div className="xl:w-2/4 3xl:w-2/4 flex justify-center items-center pl-[17.5%] pt-[10.5%]">
                     <MyIcon width={"500px"} height={"500px"}/>
                 </div>
                 <div className="w-2/4 pl-10">

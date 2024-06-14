@@ -20,7 +20,7 @@ export default {
         'lg': '1280px',
         'xl': '1580px',
         '2xl': '1780px',
-        '3xl': '2030px', // ou qualquer outro valor que desejar
+        '3xl': '2030px',
       },      
     },
   },

@@ -15,7 +15,7 @@ const Feed = () => {
       </div>
       <div className="w-1/4 relative min-h-screen">
         <div
-          className="text-[#E7E9EA] text-xl font-bold absolute bottom-0 xl:left-0 3xl:left-56 pl-4 
+          className="text-[#E7E9EA] text-xl font-bold absolute lg:bottom-0 lg:left-0 xl:bottom-0 xl:left-0 3xl:left-56 pl-4 
         border-t border-l border-r border-[#212121] shadow-md shadow-white h-14 w-96 flex items-center justify-between rounded-lg cursor-pointer"
         >
           Mensagens

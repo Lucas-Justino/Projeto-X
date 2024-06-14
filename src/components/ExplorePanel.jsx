@@ -8,12 +8,12 @@ const ExplorePanel = () => {
   return (
     <div>
       <div className="h-[6vh] pt-1">
-        <button className="flex bg-[#202327] h-[44px] w-full rounded-full items-center gap-4 pl-4">
+        <button className="flex bg-[#202327] lg:h-[32px] xl:h-[44px] 3xl:h-[44px] w-full rounded-full items-center gap-4 pl-4">
           <IoIosSearch color="#757575" size={"25px"} />
           <span className="text-[#757575] text-[16px]">Buscar</span>
         </button>
       </div>
-      <div className="xl:w-[98%] bg-black flex flex-col h-[30vh] border border-[#2F3336] rounded-xl m-2 cursor-pointer">
+      <div className="w-full bg-black flex flex-col xl:h-[30vh] border border-[#2F3336] rounded-xl m-2 cursor-pointer">
         <span className="text-[#E7E9EA] font-bold text-xl p-3">
           Talvez você curta
         </span>
