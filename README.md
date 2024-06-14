@@ -1,8 +1,13 @@
-# React + Vite
+# Projeto X
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto inspirado no Design do X, o antigo Twitter. Possui a tela de cadastro para novos usuário e uma tela do perfil do Elon Musk, junto com algumas ferramentas de sugestões.
 
-Currently, two official plugins are available:
+Para acessar a página do perfil, basta clicar no botão "entrar" na página inicial de cadastro de um novo usuário. E caso queira voltar para essa página, você precisa apenas clicar no logo do X no canto superior à esquerda.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias utilizadas
+
+Desenvolvi o projeto com React, utilizando da ferramenta Tailwind CSS
+
+## Link do Projeto na Nuvem
+
+https://projeto-x-hazel.vercel.app/
