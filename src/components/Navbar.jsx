@@ -115,7 +115,7 @@ const Navbar = () => {
           </span>
         </button>
       </div>
-      <div className="rounded-full w-[270px] mt-24 flex hover:bg-[#181818]">
+      <div className="rounded-full w-[270px] mt-24 flex hover:bg-[#181818] cursor-pointer">
             <div className="rounded-full h-10 w-10 flex justify-center items-center m-3">
                 <img src={Foto} className="h-full w-full object-cover rounded-full"/>
             </div>
