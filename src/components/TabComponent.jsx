@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import TabPosts from './TabPosts';
+import TabSignature from './TabSignature';
+import TabMidia from './TabMidia';
 
 const TabComponent = () => {
   const [activeTab, setActiveTab] = useState('Posts');
@@ -6,15 +9,15 @@ const TabComponent = () => {
   const renderContent = () => {
     switch (activeTab) {
       case 'Posts':
-        return <div>Conteúdo de Posts</div>;
+        return <TabPosts />
       case 'Respostas':
-        return <div>Conteúdo de Respostas</div>;
+        return <TabPosts />
       case 'Assinaturas':
-        return <div>Conteúdo de Assinaturas</div>;
+        return <TabSignature />
       case 'Destaques':
-        return <div>Conteúdo de Destaques</div>;
+        return <TabPosts />
       case 'Mídia':
-        return <div>Conteúdo de Mídia</div>;
+        return <TabMidia />
       default:
         return null;
     }
@@ -38,7 +41,7 @@ const TabComponent = () => {
           </div>
         ))}
       </div>
-      <div className="p-4">
+      <div className="p-1">
         {renderContent()}
       </div>
     </div>

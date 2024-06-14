@@ -10,9 +10,9 @@ import ExplorePanel from "./ExplorePanel";
 const Sidebar = () => {
   return (
     <div className="w-[31.5%] flex flex-col">
-        <ExplorePanel />
-       <Topics />
-       <Terms />
+      <ExplorePanel />
+      <Topics />
+      <Terms />
     </div>
   );
 };
