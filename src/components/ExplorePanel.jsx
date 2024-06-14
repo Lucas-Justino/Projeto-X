@@ -13,7 +13,7 @@ const ExplorePanel = () => {
           <span className="text-[#757575] text-[16px]">Buscar</span>
         </button>
       </div>
-      <div className="bg-black flex flex-col h-[30vh] border border-[#2F3336] rounded-xl m-2 cursor-pointer">
+      <div className="xl:w-[98%] bg-black flex flex-col h-[30vh] border border-[#2F3336] rounded-xl m-2 cursor-pointer">
         <span className="text-[#E7E9EA] font-bold text-xl p-3">
           Talvez você curta
         </span>

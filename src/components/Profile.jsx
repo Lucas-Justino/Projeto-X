@@ -10,7 +10,7 @@ import TabComponent from "./TabComponent";
 
 const Profile = () => {
   return (
-    <div className="w-2/4 flex flex-col border border-[#2F3336]">
+    <div className="xl:w-[58%] 3xl:w-2/4 flex flex-col border border-[#2F3336]">
       <div className="bg-black h-[6vh] flex items-center">
         <div className="flex ml-2 gap-6 items-center">
           <button className="h-8 w-8 rounded-full flex justify-center items-center hover:bg-[#181919]">
@@ -26,7 +26,6 @@ const Profile = () => {
                 <MyIcon width={"15px"} height={"15px"} />
               </div>
             </div>
-
             <span className="text-[#5D6266] leading-6 text-sm">
               45,7 mil posts
             </span>
@@ -86,23 +85,6 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      {/* <div className="bg-black h-[6vh] flex justify-around items-center cursor-pointer border-b border-[#2F3336]">
-        <div className="w-full h-full flex items-center justify-center text-[#525659] hover:bg-[#181818]">
-          <span>Posts</span>
-        </div>
-        <div className="w-full h-full flex items-center justify-center text-[#525659] hover:bg-[#181818]">
-          <span>Respostas</span>
-        </div>
-        <div className="w-full h-full flex items-center justify-center text-[#525659] hover:bg-[#181818]">
-          <span>Assinaturas</span>
-        </div>
-        <div className="w-full h-full flex items-center justify-center text-[#525659] hover:bg-[#181818]">
-          <span>Destaques</span>
-        </div>
-        <div className="w-full h-full flex items-center justify-center text-[#525659] hover:bg-[#181818]">
-          <span>Mídia</span>
-        </div>
-      </div> */}
       <TabComponent />
     </div>
   );

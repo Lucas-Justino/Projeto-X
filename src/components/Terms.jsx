@@ -2,7 +2,7 @@ import { IoIosMore } from "react-icons/io";
 
 const Terms = () => {
   return (
-    <div className="grid grid-cols-2 text-sm ml-5">
+    <div className="grid grid-cols-2 text-sm xl:ml-5 xl:mt-3 3xl:ml-5">
       <span className="text-[#71767B] hover:underline cursor-pointer">
         Termos de Serviço
       </span>
@@ -27,7 +27,7 @@ const Terms = () => {
           />
         </div>
       </span>
-      <span className="text-[#71767B] hover:underline cursor-pointer">
+      <span className="text-[#71767B]">
         © 2024 X Corp.
       </span>
     </div>

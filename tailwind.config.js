@@ -13,6 +13,15 @@ export default {
       colors: {
         'custom-gray': '#536471',
       },
+      screens: {
+        'tablet': '640px',
+        'laptop': '1024px',
+        'desktop': '1280px',
+        'lg': '1280px',
+        'xl': '1580px',
+        '2xl': '1780px',
+        '3xl': '2030px', // ou qualquer outro valor que desejar
+      },      
     },
   },
   plugins: [],
