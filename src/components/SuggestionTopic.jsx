@@ -2,7 +2,7 @@ import { IoIosMore } from "react-icons/io";
 
 const SuggestionTopic = ({ tema, destaque, posts }) => {
   return (
-    <div className="flex justify-between m-3 ml-4 mr-4 gap-5">
+    <div className="flex justify-between m-2 ml-4 mr-4 gap-5 hover:bg-[#080808]">
       <div className="flex flex-col items-start">
         <span className="text-[#5D6266] text-sm">{tema}</span>
         <span className="text-[#E7E9EA] font-semibold">{destaque}</span>

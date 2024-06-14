@@ -22,7 +22,7 @@ const Terms = () => {
         Mais
         <div className="flex justify-center items-center">
           <IoIosMore
-            className="text-[#71767B] hover:text-[#1D9BF0]"
+            className="text-[#71767B]"
             size={"15px"}
           />
         </div>

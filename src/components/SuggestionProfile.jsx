@@ -11,7 +11,7 @@ const SuggestionProfile = ({ foto, nome, isVerifiedPremium }) => {
           <img src={foto} className="h-full w-full object-cover rounded-full" />
         </div>
         <div className="flex flex-col justify-start items-start ml-2">
-          <span className="flex leading-tight text-[#E7E9EA] font-semibold gap-1">
+          <span className="flex leading-tight text-[#E7E9EA] font-semibold gap-1 hover:underline">
             {nome}
             <RiVerifiedBadgeFill color={iconColor} />
             </span>
