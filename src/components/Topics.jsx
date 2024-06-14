@@ -14,7 +14,7 @@ const Topics = () => {
       <SuggestionTopic
         tema={"Esportes • Assunto no momento em Brasil"}
         destaque={"Sem Neymar"}
-        posts={"1.839 mil posts"}
+        posts={"1.839 posts"}
       />
       <SuggestionTopic
         tema={"Esportes • Assunto no momento"}

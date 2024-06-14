@@ -14,7 +14,7 @@ import Foto from '../images/foto.jpg'
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col w-1/4 gap-[6px] p-2 border-r border-[#2F3336]">
+    <div className="flex flex-col w-1/4 gap-[6px] p-2">
       <div className="flex bg-black pl-1">
         <button className="h-12 w-12 p-2 rounded-full hover:bg-[#181919]">
           <MyIcon width={"40px"} height={"40px"} />
